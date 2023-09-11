@@ -1,17 +1,14 @@
-import React from 'react'
-import {FaCoins} from 'react-icons/fa'
-import {Link} from 'react-router-dom'
-import './Navbar.css'
+import React from 'react';
+import { FaCoins } from 'react-icons/fa';
+import './Navbar.css';
 
 const Navbar = () => {
-    return (
-        <Link to='/'>
-            <div className='navbar'>
-                <FaCoins className='icon' />
-                <h1 className='shake'> Crypto <span className='red'>Spy</span></h1>
-            </div>
-        </Link>
-    )
+  return (
+    <div className='navbar'>
+      <FaCoins className='icon' />
+      <h1> Crypto <span className='red'>Spy</span></h1>
+    </div>
+  );
 }
 
-export default Navbar
+export default Navbar; 
