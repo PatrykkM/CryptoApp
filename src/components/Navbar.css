@@ -11,4 +11,29 @@
 
 .red {
     color: #ff0000;
+
 }
+.navbar{
+    animation: shake 3s infinite;
+
+}
+@keyframes shake {
+    49% {
+      margin-left: 0%;
+    }
+    50% {
+      margin-left: 15px;
+    }
+    53% {
+      margin-left: -15px;
+    }
+    56% {
+      margin-left: 15px;
+    }
+    59% {
+      margin-left: -15px;
+    }
+    60% {
+      margin-left: 0%;
+    }
+  }
